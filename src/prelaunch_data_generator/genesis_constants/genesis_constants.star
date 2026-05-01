@@ -9,109 +9,109 @@ def new_prefunded_account(address, seed):
 PRE_FUNDED_ACCOUNTS = [
     # m/44'/60'/0'/0/0
     new_prefunded_account(
-        "Q8943545177806ED17B9F23F0a21ee5948eCaa776",
+        "Q253c9b5f121c662bda2783a091e4e98ebdcb4ad1df8c4d41bc2b907d4e6a564e1b359f6c439c363e90fc82476e088e68",
         "bcdf20249abf0ed6d944c0288fad489e33f66b3960d9e6229c1cd214ed3bbe31",
     ),
     # m/44'/60'/0'/0/1
     new_prefunded_account(
-        "QE25583099BA105D9ec0A67f5Ae86D90e50036425",
+        "Q7c3fd0d50f654719ebb6ecbdef27bb426974ed7b36f39554cd1cb48c2180f7bac1500596fefcc79121ab91a883f292fb",
         "39725efee3fb28614de3bacaffe4cc4bd8c436257e2c8bb887c4b5c4be45e76d",
     ),
     # m/44'/60'/0'/0/2
     new_prefunded_account(
-        "Q614561D2d143621E126e87831AEF287678B442b8",
+        "Q4e60eaa4ccc7bd51fcf8da9097787077d6656808d21725decfd6773a8ebf710ace967dffce0e4bd06a2ba35b6acdc914",
         "53321db7c1e331d93a11a41d16f004d7ff63972ec8ec7c25db329728ceeb1710",
     ),
     # m/44'/60'/0'/0/3
     new_prefunded_account(
-        "Qf93Ee4Cf8c6c40b329b0c0626F28333c132CF241",
+        "Qa14e7916df0a5eb3e31870d272841f055176120686743a938584233769fe6666a208e24d2e7943ace41bd5da0868b391",
         "ab63b23eb7941c1251757e24b3d2350d2bc05c3c388d06f8fe6feafefb1e8c70",
     ),
     # m/44'/60'/0'/0/4
     new_prefunded_account(
-        "Q802dCbE1B1A97554B4F50DB5119E37E8e7336417",
+        "Q4c894ecf96dacd34724f2b41f4211e2d7fe7fc1a69ffcdadd693a700bf812684cb24d54c392fb425c67e205749800699",
         "5d2344259f42259f82d2c140aa66102ba89b57b4883ee441a8b312622bd42491",
     ),
     # m/44'/60'/0'/0/5
     new_prefunded_account(
-        "QAe95d8DA9244C37CaC0a3e16BA966a8e852Bb6D6",
+        "Qce753bc2279c80a367abf73fb3b0c4e373c07024948ce5577a359e938be1f7dc9413389ed9a76399e3342e38a10c82b9",
         "27515f805127bebad2fb9b183508bdacb8c763da16f54e0678b16e8f28ef3fff",
     ),
     # m/44'/60'/0'/0/6
     new_prefunded_account(
-        "Q2c57d1CFC6d5f8E4182a56b4cf75421472eBAEa4",
+        "Qd9bbb423ca2983521575bce187906e6a78c0e246d713d9470d97874622a675b9b66a22d705077654c91fe374a23a98d5",
         "7ff1a4c1d57e5e784d327c4c7651e952350bc271f156afb3d00d20f5ef924856",
     ),
     # m/44'/60'/0'/0/7
     new_prefunded_account(
-        "Q741bFE4802cE1C4b5b00F9Df2F5f179A1C89171A",
+        "Q5a29e84c692e5974f64209785c75ab13b84d198d1f6a2bba209c0a28621a194839ac4716737197460e0ad6045961e252",
         "3a91003acaf4c21b3953d94fa4a6db694fa69e5242b2e37be05dd82761058899",
     ),
     # m/44'/60'/0'/0/8
     new_prefunded_account(
-        "Qc3913d4D8bAb4914328651C2EAE817C8b78E1f4c",
+        "Q7bdfb5709fca5a11bf210b5f151dd07c2c3b6e53403c10578532ba23309f8ab5efc2b9761455d0b988873147c3173aa9",
         "bb1d0f125b4fb2bb173c318cdead45468474ca71474e2247776b2b4c0fa2d3f5",
     ),
     # m/44'/60'/0'/0/9
     new_prefunded_account(
-        "Q65D08a056c17Ae13370565B04cF77D2AfA1cB9FA",
+        "Q5c71312bbfed213c5a34fc2fef2b049be9db053a3c8b5a943fb998aca25a536ad9338fcb0c35834cbbbb73a5f1d4037e",
         "850643a0224065ecce3882673c21f56bcf6eef86274cc21cadff15930b59fc8c",
     ),
     # m/44'/60'/0'/0/10
     new_prefunded_account(
-        "Q3e95dFbBaF6B348396E6674C7871546dCC568e56",
+        "Qe472dd882bbfd937c5e8ff86e6c6ae608ee32839b5dbe385fcad083aa5c55da711f6d4f25cfc3df3754dcd3446de7660",
         "94eb3102993b41ec55c241060f47daa0f6372e2e3ad7e91612ae36c364042e44",
     ),
     # m/44'/60'/0'/0/11
     new_prefunded_account(
-        "Q5918b2e647464d4743601a865753e64C8059Dc4F",
+        "Qbbd8767e4ef510038019330045a8c204ffd85e2e17795dfa6ac63e4fb9ad527517b1b65032ed6d7bf7ab0c22814da13f",
         "daf15504c22a352648a71ef2926334fe040ac1d5005019e09f6c979808024dc7",
     ),
     # m/44'/60'/0'/0/12
     new_prefunded_account(
-        "Q589A698b7b7dA0Bec545177D3963A2741105C7C9",
+        "Q095589ad0142a5014db7c9f62b358ae4637c65ec69f31107262e4a3d7504f608afad5d23e5b5a00daf247fdc51492b34",
         "eaba42282ad33c8ef2524f07277c03a776d98ae19f581990ce75becb7cfa1c23",
     ),
     # m/44'/60'/0'/0/13
     # NOTE(rgeraldes24): seed from https://github.com/cyyber/web3.js/blob/main/scripts/accounts.json#L3
     new_prefunded_account(
-        "QD5812F6cf4a0f645aA620CD57319a0Ed649Dd8f5",
+        "Qf9f134ba1149f2e2edc94d17138c3bd0dbbaf703a6e6501938fd774545d52e20fce8cc0856c6f3fb7d9927ccd07542bc",
         "010000f29f58aff0b00de2844f7e20bd9eeaacc379150043beeb328335817512b29fbb7184da84a092f842b2a06d72a24a5d28",
     ),
     # m/44'/60'/0'/0/14
     # NOTE(rgeraldes24): seed from https://github.com/cyyber/web3.js/blob/main/scripts/accounts.json#L7
     new_prefunded_account(
-        "Qa5AEDb928f8300DE98C66bb4BB66b9bB137e9A17",
+        "Q91c2f58c52154bf1b9fad7a7fce5f2b92c6747add1f165a9285f72ab429c9848972387af6420b9af94480fd92231de8f",
         "010000d665bd59e560503aba4f32edbc3d49523c602657e169cb6d71cce62e282a1320c0f12536318d7b5d713b296b8a35233b",
     ),
     # m/44'/60'/0'/0/15
     new_prefunded_account(
-        "QF61E98E7D47aB884C244E39E031978E33162ff4b",
+        "Q6eaafea9366a7320847273e5c83fccfca1f12f78465282c0eea72772c01a0a9cef128c5efd967e9b48741a33dd3fa3f3",
         "f296c7802555da2a5a662be70e078cbd38b44f96f8615ae529da41122ce8db05",
     ),
     # m/44'/60'/0'/0/16
     new_prefunded_account(
-        "Qf1424826861ffbbD25405F5145B5E50d0F1bFc90",
+        "Q83a4c936e5b78a5b398cbf6ee6393e15c557a5952b2c104b71d174db7d8cca3f696f10108a761efcf00ca4267dfde462",
         "bf3beef3bd999ba9f2451e06936f0423cd62b815c9233dd3bc90f7e02a1e8673",
     ),
     # m/44'/60'/0'/0/17
     new_prefunded_account(
-        "QfDCe42116f541fc8f7b0776e2B30832bD5621C85",
+        "Qbc61dae1bf5b4c69aeec01bf1b2b3ba69eb7c93488ba18a773d6e074cce999c6904073c832007ff01de0e42c2057145c",
         "6ecadc396415970e91293726c3f5775225440ea0844ae5616135fd10d66b5954",
     ),
     # m/44'/60'/0'/0/18
     new_prefunded_account(
-        "QD9211042f35968820A3407ac3d80C725f8F75c14",
+        "Q4e213d2cab894d07fb533aaa8b67402f5a64514dcacfc880d35fe3d4d80d2339a4cff115efc1d5544662dcac0c80f555",
         "a492823c3e193d6c595f37a18e3c06650cf4c74558cc818b16130b293716106f",
     ),
     # m/44'/60'/0'/0/19
     new_prefunded_account(
-        "QD8F3183DEF51A987222D845be228e0Bbb932C222",
+        "Qebfef9cabb9aab20031be67d8ff525ef09e2310dc9c36da469d63deddb68173e2973a8c0dee4d6b3f7e7bfb2e116cc48",
         "c5114526e042343c6d1899cad05e1c00ba588314de9b96929914ee0df18d46b2",
     ),
     # m/44'/60'/0'/0/20
     new_prefunded_account(
-        "QafF0CA253b97e54440965855cec0A8a2E2399896",
+        "Qbb80313e620ee2ca4f2f94eb3579643d0740e2bf9afb39c9f01d9c634758c2b6d73ca4f2c628dd33cfebd9c75e43401d",
         "04b9f63ecf84210c5366c66d68fa1f5da1fa4f634fad6dfc86178e4d79ff9e59",
     ),
 ]
