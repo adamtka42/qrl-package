@@ -449,7 +449,7 @@ network_params:
   network_id: "3151908"
 
   # The address of the staking contract address
-  deposit_contract_address: "Q4242424242424242424242424242424242424242"
+  deposit_contract_address: "Q424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242"
 
   # Number of seconds per slot on the Beacon chain
   seconds_per_slot: 60
