@@ -559,8 +559,8 @@ network_params:
   gossip_max_size: 10485760
 
   # Withdrawal address
-  # Default to "Q253c9b5f121c662bda2783a091e4e98ebdcb4ad1df8c4d41bc2b907d4e6a564e1b359f6c439c363e90fc82476e088e68"
-  withdrawal_address: "Q253c9b5f121c662bda2783a091e4e98ebdcb4ad1df8c4d41bc2b907d4e6a564e1b359f6c439c363e90fc82476e088e68"
+  # Default to "Q0838A121A6e4dd8A51e7437b152FaBBc76a173f077132F2C2ED021c7B0991E70da4dba44e9ec00984a90f28dfb0aabbd"
+  withdrawal_address: "Q0838A121A6e4dd8A51e7437b152FaBBc76a173f077132F2C2ED021c7B0991E70da4dba44e9ec00984a90f28dfb0aabbd"
 
 
 
