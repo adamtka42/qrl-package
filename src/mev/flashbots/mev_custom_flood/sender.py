@@ -23,7 +23,7 @@ logging.basicConfig(filename="/tmp/sender.log",
 # this is the last prefunded address
 SENDER = os.getenv("SENDER_PRIVATE_KEY", "17fdf89989597e8bcac6cdfcc001b6241c64cece2c358ffc818b72ca70f5e1ce")
 # this is the first prefunded address
-RECEIVER = os.getenv("RECEIVER_PUBLIC_KEY", "0x878705ba3f8Bc32FCf7F4CAa1A35E72AF65CF766")
+RECEIVER = os.getenv("RECEIVER_PUBLIC_KEY", "Q00000000000000000000000000000000000000000000000000000000878705ba3f8bc32fcf7f4caa1a35e72af65cf766")
 EL_URI = os.getenv("EL_RPC_URI", 'http://0.0.0.0:53913')
 
 

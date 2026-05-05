@@ -529,7 +529,7 @@ network_params:
   additional_preloaded_contracts: {}
   # Example:
   # additional_preloaded_contracts: '{
-  #  "Q123463a4B065722E99115D6c222f267d9cABb524":
+  #  "Q00000000000000000000000000000000000000000000000000000000123463a4b065722e99115d6c222f267d9cabb524":
   #   {
   #     balance: "1QRL",
   #     code: "0x1234",
@@ -546,11 +546,11 @@ network_params:
   # A number of prefunded accounts to be created
   # Defaults to no prefunded accounts
   # Example:
-  # prefunded_accounts: '{"Q25941dC771bB64514Fc8abBce970307Fb9d477e9": {"balance": "10QRL"}}'
-  # 10QRL to the account Q25941dC771bB64514Fc8abBce970307Fb9d477e9
+  # prefunded_accounts: '{"Q0000000000000000000000000000000000000000000000000000000025941dc771bb64514fc8abbce970307fb9d477e9": {"balance": "10QRL"}}'
+  # 10QRL to the account Q0000000000000000000000000000000000000000000000000000000025941dc771bb64514fc8abbce970307fb9d477e9
   # To prefund multiple accounts, separate them with a comma
   #
-  # prefunded_accounts: '{"Q25941dC771bB64514Fc8abBce970307Fb9d477e9": {"balance": "10QRL"}, "Q4107be99052d895e3ee461C685b042Aa975ab5c0": {"balance": "1QRL"}}'
+  # prefunded_accounts: '{"Q0000000000000000000000000000000000000000000000000000000025941dc771bb64514fc8abbce970307fb9d477e9": {"balance": "10QRL"}, "Q000000000000000000000000000000000000000000000000000000004107be99052d895e3ee461c685b042aa975ab5c0": {"balance": "1QRL"}}'
   prefunded_accounts: {}
 
   # Maximum size of gossip messages in bytes
