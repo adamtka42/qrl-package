@@ -783,7 +783,7 @@ def default_network_params():
         "devnet_repo": "ethpandaops",
         "prefunded_accounts": {},
         "gossip_max_size": 10485760,
-        "withdrawal_address": "Q0838A121A6e4dd8A51e7437b152FaBBc76a173f077132F2C2ED021c7B0991E70da4dba44e9ec00984a90f28dfb0aabbd",
+        "withdrawal_address": "Q0838a121a6e4dd8a51e7437b152fabbc76a173f077132f2c2ed021c7b0991e70da4dba44e9ec00984a90f28dfb0aabbd",
     }
 
 
@@ -815,7 +815,7 @@ def default_minimal_network_params():
         "devnet_repo": "ethpandaops",
         "prefunded_accounts": {},
         "gossip_max_size": 10485760,
-        "withdrawal_address": "Q0838A121A6e4dd8A51e7437b152FaBBc76a173f077132F2C2ED021c7B0991E70da4dba44e9ec00984a90f28dfb0aabbd",
+        "withdrawal_address": "Q0838a121a6e4dd8a51e7437b152fabbc76a173f077132f2c2ed021c7b0991e70da4dba44e9ec00984a90f28dfb0aabbd",
     }
 
 
