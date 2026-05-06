@@ -1,11 +1,13 @@
 """
 this is s a really dumb script that sends tokens to the receiver from the sender every 3 seconds
 this is being used as of 2023-09-06 to guarantee that payloads are delivered
+
+This legacy helper uses upstream web3.py account signing, which derives and
+validates 20-byte Ethereum addresses. It is intentionally disabled for QRL
+48-byte addresses until it is ported to a QRL-aware signing stack.
 """
 from functools import partial
 
-from web3 import Web3
-from web3.middleware import construct_sign_and_send_raw_middleware
 import os
 import time
 import logging
@@ -28,6 +30,12 @@ EL_URI = os.getenv("EL_RPC_URI", 'http://0.0.0.0:53913')
 
 
 def send_transaction():
+    raise RuntimeError(
+        "mev_custom_flood/sender.py is not QRL 48-byte address compatible: "
+        "web3.py account signing derives 20-byte Ethereum addresses. Port this "
+        "helper to a QRL-aware signer before using it."
+    )
+
     # Setting w3 as constant causes recursion exceeded error after ~500 transactions
     # Thus it's created everytime a transaction is sent
     w3 = Web3(Web3.HTTPProvider(EL_URI))
@@ -62,6 +70,11 @@ def delayed_send(interval_between_transactions):
 @click.command()
 @click.option('--interval_between_transactions', default=0.5, help='Interval between successive transaction sends (in seconds). The value may be an integer or decimal')
 def run_infinitely(interval_between_transactions):
+    raise RuntimeError(
+        "mev_custom_flood/sender.py is disabled for QRL 48-byte addresses. "
+        "Port it to a QRL-aware signer before using it."
+    )
+
     logging.info(f"Using sender {SENDER} receiver {RECEIVER} and el_uri {EL_URI}")
     spam = send_transaction if interval_between_transactions == 0 else partial(delayed_send, interval_between_transactions)
     while True:
