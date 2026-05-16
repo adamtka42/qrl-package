@@ -4,7 +4,7 @@ this is being used as of 2023-09-06 to guarantee that payloads are delivered
 
 This legacy helper uses upstream web3.py account signing, which derives and
 validates 20-byte Ethereum addresses. It is intentionally disabled for QRL
-48-byte addresses until it is ported to a QRL-aware signing stack.
+64-byte addresses until it is ported to a QRL-aware signing stack.
 """
 from functools import partial
 
@@ -25,13 +25,13 @@ logging.basicConfig(filename="/tmp/sender.log",
 # this is the last prefunded address
 SENDER = os.getenv("SENDER_PRIVATE_KEY", "17fdf89989597e8bcac6cdfcc001b6241c64cece2c358ffc818b72ca70f5e1ce")
 # this is the first prefunded address
-RECEIVER = os.getenv("RECEIVER_PUBLIC_KEY", "Q00000000000000000000000000000000000000000000000000000000878705ba3f8bc32fcf7f4caa1a35e72af65cf766")
+RECEIVER = os.getenv("RECEIVER_PUBLIC_KEY", "Qa73c065f7018cc0cfff98028d8ef1ff746f5cb425bc8840a4cdc2a6eb717faa121a2e959a6a0dac2d7c38252d70e4541397b0967880f00b9bd0c4c5d0fc46b2d")
 EL_URI = os.getenv("EL_RPC_URI", 'http://0.0.0.0:53913')
 
 
 def send_transaction():
     raise RuntimeError(
-        "mev_custom_flood/sender.py is not QRL 48-byte address compatible: "
+        "mev_custom_flood/sender.py is not QRL 64-byte address compatible: "
         "web3.py account signing derives 20-byte Ethereum addresses. Port this "
         "helper to a QRL-aware signer before using it."
     )
@@ -71,7 +71,7 @@ def delayed_send(interval_between_transactions):
 @click.option('--interval_between_transactions', default=0.5, help='Interval between successive transaction sends (in seconds). The value may be an integer or decimal')
 def run_infinitely(interval_between_transactions):
     raise RuntimeError(
-        "mev_custom_flood/sender.py is disabled for QRL 48-byte addresses. "
+        "mev_custom_flood/sender.py is disabled for QRL 64-byte addresses. "
         "Port it to a QRL-aware signer before using it."
     )
 
